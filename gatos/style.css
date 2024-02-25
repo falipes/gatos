@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, input{
+  font-family: "Mulish", sans-serif;
+  
+}
+
+
+
+main{
+
+  background-color: #F4FCFF;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+.input-wrapper label{
+  width: 1px;
+  height: 1px;
+  overflow: hidden; 
+  position: absolute;
+ }
+
+.input-wrapper{
+  width: 100%;
+  padding: 1.6rem;
+  
+  background-color: F4FCFF;
+  border: 0;
+  border-radius: 0.6rem;
+  
+  font: 1.6rem;
+  font-weight: 600;
+}
+
+.input-wrapper input::placeholder{
+  opacity: 0.56;
+  color: white;
+
+}
+
+.baixo {
+  margin-top: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+#app{
+  display: grip;
+  grid-template-rows: max-content 3fr 1fr max-content;
+}
+
+header{
+  position:sticky;
+  top: 0px;
+
+  background-color: #065E7C;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  padding: .5rem 3.2rem;
+  width: min(112rem, 100%);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.input-wrapper{
+  border: 8px;
+}
+
+h1{
+
+  font-size: 2.4rem;
+
+}
+
+p{
+
+  font-size: 1.8rem;
+}
+
+img.thumbnail {
+	width: 100%;
+}
+
+div.content {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+div.content main {
+	width: 75%;
+}
+
+div.content aside {
+	width: 25%;
+}
+
+.avatar{
+  width: 4.2rem;
+  height: 4.2rem;
+
+  object-fit: cover;
+  
+
+  border-radius: 50%;
+}
+
+footer p{
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  color: white;
+}
+
+footer{
+
+  position: sticky;
+  bottom: 0px;
+  width: 100% !important;
+  background-color: #065E7C;
+  
+}
